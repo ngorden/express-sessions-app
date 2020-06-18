@@ -15,17 +15,22 @@
   "author": "Nicholas Gorden",
   "license": "ISC",
   "dependencies": {
+    "cookie-parser": "^1.4.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "express-session": "^1.17.1",
     "fs-extra": "^9.0.1",
     "helmet": "^3.23.1",
     "morgan": "^1.10.0"
   },
   "devDependencies": {
+    "@types/cookie-parser": "^1.4.2",
     "@types/express": "^4.17.6",
+    "@types/express-session": "^1.17.0",
     "@types/fs-extra": "^9.0.1",
     "@types/helmet": "0.0.47",
     "@types/morgan": "^1.9.1",
+    "@types/multer": "^1.4.3",
     "@types/node": "^14.0.13",
     "nodemon": "^2.0.4",
     "ts-node": "^8.10.2",

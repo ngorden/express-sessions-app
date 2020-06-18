@@ -7,11 +7,8 @@ import app from "./src/Server";
 require("dotenv").config();
 
 const options = {
-  cert:
-    process.env.SSL_CERT ||
-    readFileSync(resolve(__dirname, "certs", "server.crt")),
-  key:
-    process.env.SSL_KEY || readFileSync(resolve(__dirname, "certs", "key.pem")),
+  cert: process.env.SSL_CERT || readFileSync(resolve("certs", "server.crt")),
+  key: process.env.SSL_KEY || readFileSync(resolve("certs", "key.pem")),
 };
 
 const port = process.env.PORT || 3000;
